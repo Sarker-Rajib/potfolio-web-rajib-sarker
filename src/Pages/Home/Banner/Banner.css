@@ -3,10 +3,27 @@
     background: url(../../../images/16386858141_65a65879cd_b.jpg) no-repeat center center/cover;
 }
 
+.text{
+    padding-top: 100px;
+}
+
 .text h1{
     font-size: 100px;
 }
 
+@media(max-width: 991px){
+    .text h1{
+        font-size: 30px;
+    }
+}
+
 .text h2{
     font-size: 60px;
+}
+
+@media(max-width: 991px){
+    .text h2{
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
 }

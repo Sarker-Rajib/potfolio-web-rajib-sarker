@@ -14,18 +14,24 @@ import node from '../../../images/tech/node.png';
 import vercel from '../../../images/tech/vercel.png';
 import git from '../../../images/tech/github.png';
 import mdb from '../../../images/tech/mdb.png';
+import '../Technologies/Technologies.css';
 
 const Technologies = () => {
     return (
-        <div className='py-5'>
-            <div className="container">
+        <div className='py-5 overflow-hidden'>
+            <div className="container pt-0 pt-lg-5">
+                <h2 className='text-center pb-4'>Technologies & Tools</h2>
+
                 <Swiper
-                    slidesPerView={6}
+                    slidesPerView={5}
                     centeredSlides={false}
                     spaceBetween={30}
                     grabCursor={true}
                     pagination={{
                         clickable: true,
+                    }}
+                    autoplay={{
+                        delay: 1000,
                     }}
                     modules={[Pagination]}
                     className="mySwiper"
@@ -87,7 +93,7 @@ const Technologies = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-        </div>
+        </div >
     );
 };
 
