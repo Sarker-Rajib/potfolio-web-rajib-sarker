@@ -1,10 +1,11 @@
 import React from 'react';
+import MyProjects from '../../Components/MyProjects/MyProjects';
 
 const Projects = () => {
     return (
-        <div style={{ paddingTop: "100px" }}>
+        <div style={{ paddingTop: "50px" }}>
             <div className='container'>
-                <h2>Under Construction</h2>
+                <MyProjects></MyProjects>
             </div>
         </div>
     );

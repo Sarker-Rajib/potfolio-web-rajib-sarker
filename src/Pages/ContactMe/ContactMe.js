@@ -1,5 +1,6 @@
 import React from 'react';
 import { toast } from 'react-hot-toast';
+import '../ContactMe/ContactMe.css';
 
 const ContactMe = () => {
 
@@ -23,16 +24,20 @@ const ContactMe = () => {
     }
 
     return (
-        <div className="py-5" id='contactMe'>
+        <div id='contactMe'>
             <div className='container'>
                 <h2 className='text-center pb-3'>Contact me</h2>
-                <div style={{ boxShadow: "0px 5px 15px 2px #764cd866", borderRadius:"15px"}} className="border p-3 p-lg-5">
+                <div style={{ boxShadow: "0px 5px 15px 2px #764cd866", borderRadius: "15px" }} className="border p-3 p-lg-5">
                     <h5>Get in touch</h5>
                     <form onSubmit={handleFormSubmit}>
                         <div className="row pb-3">
-                            <div className="col-md-6 pb-3 pb-md-0">
+                            <div className="col-12 pb-3">
                                 <label htmlFor="name">Name</label>
                                 <input className='form-control' type="text" name="name" required />
+                            </div>
+                            <div className="col-md-6 pb-3 pb-md-0">
+                                <label htmlFor="E-mail">Mobile no</label>
+                                <input className='form-control' type="text" name="mobile-no" required />
                             </div>
                             <div className="col-md-6">
                                 <label htmlFor="E-mail">E-mail</label>

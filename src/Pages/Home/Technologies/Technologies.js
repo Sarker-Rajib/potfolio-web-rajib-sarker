@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
@@ -17,13 +18,15 @@ import mdb from '../../../images/tech/mdb.png';
 import '../Technologies/Technologies.css';
 
 const Technologies = () => {
+    SwiperCore.use([Autoplay]);
     return (
         <div className='py-5 overflow-hidden'>
             <div className="container pt-0 pt-lg-5">
                 <h2 className='text-center pb-4'>Technologies & Tools</h2>
 
                 <Swiper
-                    slidesPerView={5}
+                    // slidesPerView={5}
+                    loop={true}
                     centeredSlides={false}
                     spaceBetween={30}
                     grabCursor={true}
@@ -31,9 +34,29 @@ const Technologies = () => {
                         clickable: true,
                     }}
                     autoplay={{
-                        delay: 1000,
+                        delay: 2000,
                     }}
                     modules={[Pagination]}
+                    breakpoints={{
+                        // when window width is >= 640px
+                        320: {
+                            width: 320,
+                            slidesPerView: 2,
+                        },
+                        // when window width is >= 768px
+                        768: {
+                            width: 768,
+                            slidesPerView: 4,
+                        },
+                        992: {
+                            width: 992,
+                            slidesPerView: 5,
+                        },
+                        1200: {
+                            width: 1200,
+                            slidesPerView: 6,
+                        },
+                    }}
                     className="mySwiper"
                 >
                     <SwiperSlide>
