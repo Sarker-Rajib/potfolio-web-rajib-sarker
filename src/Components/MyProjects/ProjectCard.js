@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
             <div className="item-card h-100 p-3 p-lg-5" style={{ boxShadow: "0px 5px 15px 2px #764cd866", borderRadius: "15px" }}>
                 <h5>{id}. {name}</h5>
                 <div className="row">
-                    <div className="col-md-6">
-                        <div className="text py-2">
+                    <div className="col-md-6 pb-3 pb-md-0">
+                        <div className="text py-2" data-aos="flip-up">
                             <h6 className='pt-3'>About the Project</h6>
                             <p>{shortDetails}</p>
 
@@ -26,7 +26,6 @@ const ProjectCard = ({ project }) => {
                         <img className='img-fluid' src={bannerImage} alt="banner" />
                     </div>
                 </div>
-                {/* <img className='img-fluid' src={} alt="ban" /> */}
             </div>
         </>
     );

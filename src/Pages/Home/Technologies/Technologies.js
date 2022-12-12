@@ -22,7 +22,7 @@ const Technologies = () => {
     return (
         <div className='py-5 overflow-hidden'>
             <div className="container pt-0 pt-lg-5">
-                <h2 className='text-center pb-4'>Technologies & Tools</h2>
+                <h2 className='text-center pb-4'>My Skills on Technologies & Tools</h2>
 
                 <Swiper
                     // slidesPerView={5}

@@ -21,7 +21,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="image">
+                        <div className="image" data-aos="fade-down-right">
                             <img className='img-fluid' src={photo} alt="Rajib Sarker" />
                         </div>
                     </div>
