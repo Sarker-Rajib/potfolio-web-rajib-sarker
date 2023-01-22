@@ -6,7 +6,13 @@ const Banner = () => {
     return (
         <div className='banner d-flex align-items-center'>
             <div className="container">
-                <div className="row">
+                <div className="row"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                >
                     <div className="col-lg-6 d-flex align-items-center">
                         <div className="text text-light">
                             <h3>Hello ! I am</h3>
@@ -21,7 +27,13 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="image" data-aos="fade-down-right">
+                        <div className="image"
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                        >
                             <img className='img-fluid' src={photo} alt="Rajib Sarker" />
                         </div>
                     </div>

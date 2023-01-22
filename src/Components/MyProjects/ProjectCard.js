@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
                 <h5>{id}. {name}</h5>
                 <div className="row">
                     <div className="col-md-6 pb-3 pb-md-0">
-                        <div className="text py-2" data-aos="flip-up">
+                        <div className="text py-2" data-aos="fade-right">
                             <h6 className='pt-3'>About the Project</h6>
                             <p>{shortDetails}</p>
 
@@ -23,7 +23,14 @@ const ProjectCard = ({ project }) => {
                         <Link className='btn border border-success' to={`/projects/${id}`} >More Details</Link>
                     </div>
                     <div className="col-md-6">
-                        <img className='img-fluid' src={bannerImage} alt="banner" />
+                        <img className='img-fluid'
+                            src={bannerImage} alt="banner"
+                            data-aos="fade-up-left"
+                            data-aos-delay="50"
+                            data-aos-duration="4000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                        />
                     </div>
                 </div>
             </div>
