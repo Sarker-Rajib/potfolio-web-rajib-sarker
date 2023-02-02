@@ -1,0 +1,14 @@
+.live-link {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    background: #502086;
+    display: inline-block;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.live-link:hover {
+    color: antiquewhite;
+    transform: scale(1.1);
+}
