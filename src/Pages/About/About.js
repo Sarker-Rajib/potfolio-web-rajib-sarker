@@ -11,7 +11,10 @@ const About = () => {
                     <>
                         <h6>Hello there! , I'm Rajib Sarker <br /></h6>
                         <p>I'm very much passionate about computer science, so that here I,m as a developer.<br /><br />
-                            I explored how to code myself, fast-forward to today. It was html with what I startes my journey like many others and now I'm doing coding with JavaScript and various technologies. Recently I have completed "complete web development course with jhankar mahbub" on Programming Hero. I feel very very much happy and excited when i can make better codes that give a nice output. Currently i'm focused on MERN stack development
+                            I explored how to code myself, fast-forward to today. It was html with what I started my journey
+                            like many others and now I'm doing coding with JavaScript and various technologies. Recently I have completed
+                            "complete web development course with jhankar mahbub" on Programming Hero. I feel very very much happy and excited when i can make better codes
+                            that give a nice output. Currently i'm focused on MERN stack development.
                             <br /><br />
                             I like to explore new technologies, play games, reading books and hangouts with my friends for my free times.
                         </p>
@@ -24,7 +27,7 @@ const About = () => {
                                 Dhaka, Bangladesh.
                             </p>
                         </div>
-                        
+
                         <div className="col-md-6">
                             <p className='m-0'>Address: Dhaka, Bangladesh</p>
                             <p>Email: rajib.sarker111@gmail.com</p>

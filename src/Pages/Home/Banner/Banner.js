@@ -24,6 +24,8 @@ const Banner = () => {
                             <a className="btn btn-success ms-2 mt-2" href="../../../files/Rajib-Sarker-Resume.pdf" download>
                                 Download Resume
                             </a>
+                            <br />
+                            <a href='https://github.com/Sarker-Rajib' className='btn border me-2'>Github</a>
                         </div>
                     </div>
                     <div className="col-lg-6">
